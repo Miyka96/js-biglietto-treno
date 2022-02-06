@@ -15,3 +15,7 @@ else if (age > 65) {
 else {
     document.getElementById("price").innerHTML= parseFloat (priceCalculated) .toFixed (2);
 }
+
+if (age == isNaN) {
+    alert("Inserisci solo numeri!");
+}
